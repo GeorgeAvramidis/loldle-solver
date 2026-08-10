@@ -179,9 +179,6 @@ It bridges theory and practice by turning a game into an **optimization problem*
 ## Project Structure
 ```
 .
-├── LICENSE
-├── README.md
-├── requirements.txt
 │
 ├── resources/                       # Data storage & images
 ├── results/
@@ -194,15 +191,19 @@ It bridges theory and practice by turning a game into an **optimization problem*
 ├── notebooks/
 │   └── loldle_analysis.ipynb        # Exploratory + theoretical analysis
 │
-└── solver/
-    ├── __main__.py                  # Run the interactive solver
-    ├── cli.py                       # Interactive solver (CLI)
-    │
-    ├── champ_pipeline/              # Core ETL pipeline for getting all champion data
-    ├── engine/                      # Core solving logic
-    ├── plots/                       # Visualization utilities
-    ├── ui/                          # UI utilities for cli.py
-    └── utils/                       # Helper functionalities
+├── solver/
+│   ├── __main__.py                  # Run the interactive solver
+│   ├── cli.py                       # Interactive solver (CLI)
+│   │
+│   ├── champ_pipeline/              # Core ETL pipeline for getting all champion data
+│   ├── engine/                      # Core solving logic
+│   ├── plots/                       # Visualization utilities
+│   ├── ui/                          # UI utilities for cli.py
+│   └── utils/                       # Helper functionalities
+│
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ---
